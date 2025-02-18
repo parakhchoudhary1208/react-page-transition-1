@@ -6,7 +6,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+        <BrowserRouter basename="/react-page-transition-1" future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
             <Routes>
                 <Route path='/*' element={<App /> }/>
             </Routes>
